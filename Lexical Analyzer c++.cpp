@@ -42,7 +42,7 @@ int main() {
 
 		for (i = 0; i < 6; ++i) {
 			if (ch == operators[i])
-				cout << ch << " is operator\n";
+				cout << ch << " is an operator\n";
 		}
 
 		if (isalnum(ch)) {
@@ -53,9 +53,9 @@ int main() {
 			j = 0;
 
 			if (isKeyword(buffer) == 1)
-				cout << buffer << " is keyword\n";
+				cout << buffer << " is a keyword\n";
 			else
-				cout << buffer << " is indentifier\n";
+				cout << buffer << " is an identifier\n";
 		}
 
 	}
